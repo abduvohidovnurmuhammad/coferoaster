@@ -161,4 +161,146 @@ a {
   .greatcoffee__btn {
     text-align: center;
   }
+}
+.our__box {
+  background-image: url("../../img/ourbgimg.png");
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: contain;
+  height: 550px;
+}
+
+.our__list {
+  padding-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.our__item {
+  max-width: 255px;
+}
+
+.ourlistfoto {
+  width: 256px;
+  height: 193px;
+}
+
+.our__strong {
+  color: rgb(51, 61, 75);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  text-align: center;
+}
+
+.our__text {
+  color: rgb(51, 61, 75);
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1140px) {
+  .our__box {
+    height: 300px;
+  }
+  .our__list {
+    padding-top: 200px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .our__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 620px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 836px) {
+  .our__list {
+    padding-top: 100px;
+  }
+}
+@media screen and (max-width: 567px) {
+  .our__item {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 426px) {
+  .our__list {
+    padding-top: 50px;
+  }
+}
+.choose__box {
+  background-color: #262D36;
+  height: 600px;
+  width: 1360px;
+  padding-top: 100px;
+}
+
+.choose__title {
+  color: rgb(254, 252, 247);
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  text-align: center;
+}
+
+.choose__text {
+  color: rgb(254, 252, 247);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.choose__list {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+
+.choose__item {
+  border-radius: 8px;
+  background: rgb(14, 135, 132);
+  max-width: 350px;
+  height: 382px;
+  position: relative;
+  padding-top: 100px;
+}
+
+.chooseitem__titlle::before {
+  content: "";
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  background-image: url("../../img/choosebefore.png");
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  top: 6%;
+  right: 42%;
+}
+
+.chooseitem__titlle {
+  color: rgb(254, 252, 247);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.chooseitem__text {
+  color: rgb(254, 252, 247);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
